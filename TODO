@@ -1,0 +1,12 @@
+TODO
+----
+
+- Consider adding support for specifying a key as a command line
+  argument, either instead of or in addition to the secret file.
+- Consider adding support for logging to a file.
+- Consider adding support for choosing a custom colorscheme (from
+  those supported by rouge).
+- Consider adding some method to list existing pastes and possibly
+  another to remove an existing paste.
+- Consider packaging/publishing as an actual Ruby gem.
+- Resolve all current FIXME comments.

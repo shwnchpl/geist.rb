@@ -29,10 +29,6 @@ require 'rouge'
 require 'set'
 require 'webrick'
 
-# TODO: Consider adding support for specifying a key as a command line
-# argument, either instead of or in addition to the secret file.
-# TODO: Consider adding support for logging to a file.
-
 module Util
   def Util::gen_hash(contents)
     return Base64.urlsafe_encode64(Base64.decode64(
