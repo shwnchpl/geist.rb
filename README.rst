@@ -123,6 +123,27 @@ invocation of `pass`_ or something along those lines) and
 .. _nginx: https://nginx.org/
 .. _pass: https://www.passwordstore.org/
 
+Screenshots
+-----------
+
+C source:
+
+.. image:: https://i.postimg.cc/zGvStXgb/c-src.png
+       :alt: A screenshot of hosted and highlighted C source code.
+       :align: center
+
+Ruby source:
+
+.. image:: https://i.postimg.cc/0y4GLRYt/ruby-src.png
+       :alt: A screenshot of hosted and highlighted Ruby source code.
+       :align: center
+
+TCL source:
+
+.. image:: https://i.postimg.cc/wBs5zfF9/tcl-src.png
+       :alt: A screenshot of hosted and highlighted TCL source code.
+       :align: center
+
 License
 -------
 
