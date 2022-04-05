@@ -29,6 +29,11 @@ require 'rouge'
 require 'set'
 require 'webrick'
 
+# FIXME: Figure out where this actually belongs.
+module Geist
+  VERSION = "0.1.0"
+end
+
 module Util
   def Util::gen_hash(contents)
     return Base64.urlsafe_encode64(Base64.decode64(
