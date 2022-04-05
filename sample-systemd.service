@@ -1,0 +1,8 @@
+[Unit]
+Description=Sample geist.rb unit file.
+
+[Service]
+ExecStart=/usr/local/bin/geist.rb -f /var/www/paste -k /etc/geist-keys
+
+[Install]
+WantedBy=multi-user.target
